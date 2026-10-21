@@ -1,0 +1,67 @@
+body {
+    background-color: #f4ead8;
+    color: #49352a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+#message {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    min-height: 30px;
+}
+
+#call-status {
+    color: #963f46;
+    font-size: 0.9rem;
+    min-height: 20px;
+}
+
+.number-button {
+    background-color: #fff8ed;
+    color: #49352a;
+    border: 2px solid #c9b49a;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: backround-color 0.2s, transform 0.2s;
+}
+
+.number-button:hover {
+    background-color: #e7d2b8;
+    transform: scale(1.05);
+}
+
+#back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#start-button,
+#back-button {
+    background-color: #963f46;
+    color: #fff8ed;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#start-button:hover,
+#back-button:hover {
+    background-color: #743039;
+}
